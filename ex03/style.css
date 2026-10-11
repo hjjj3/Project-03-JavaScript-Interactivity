@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.counter-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+#counterValue {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.positive {
+    color: #27ae60;
+}
+
+.negative {
+    color: #c0392b;
+}
+
+.neutral {
+    color: #2c3e50;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#resetBtn {
+    background-color: #7f8c8d;
+}
+
+#resetBtn:hover {
+    background-color: #636e72;
+}
